@@ -62,11 +62,10 @@ int main(void){
         cout << x << "  ";
     cout << endl;
 
-    cout << "第一个小于等于4的数: " << search_left1(nums, 4) << endl;
-    cout << "第一个小于4的数: "     << search_left2(nums, 4) << endl;
-    cout << "第一个大于等于4的数: " << search_right1(nums, 4)<< endl;
+    cout << "第一个小于等于4的数: " << search_left1(nums, 4) <<  endl;
+    cout << "第一个小于4的数: "     << search_left2(nums, 4) <<  endl;
+    cout << "第一个大于等于4的数: " << search_right1(nums, 4)<<  endl;
     cout << "第一个大于4的数: "    <<  search_right2(nums, 4) << endl;
-
 
     return 0;
 }
